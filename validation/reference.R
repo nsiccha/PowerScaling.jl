@@ -10,6 +10,5 @@ writeLines(sprintf("%.17g", c(distance, s$prior[[1]], s$likelihood[[1]])),
            file.path(out, "r_values.txt"))
 cat("R_VERSIONS", R.version.string,
     "priorsense=", as.character(packageVersion("priorsense")),
-    "posterior=", as.character(packageVersion("posterior")),
-    "loo=", as.character(packageVersion("loo")), "\n")
+    "posterior=", as.character(packageVersion("posterior")), "\n")
 print(s)

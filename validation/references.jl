@@ -59,7 +59,7 @@ end
 end
 
 # R receives the exact same draws, density values, and Julia-smoothed weights.
-# This separates the CJS comparison from differences in R loo's smoothing.
+# This separates the CJS comparison from differences in the PSIS implementations.
 n = 4_000
 x = 1 .+ randn(Xoshiro(803), n) ./ sqrt(2)
 lp, ll = -x.^2 ./ 2, -(x .- 2).^2 ./ 2
