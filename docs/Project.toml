@@ -1,0 +1,12 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+DocumenterVitepress = "4710194d-e776-4893-9690-8d956a29c365"
+PowerScaling = "ea5902b9-87b7-4ea4-9e46-f9c5bf9e0b31"
+
+[sources.PowerScaling]
+path = ".."
+
+[compat]
+Documenter = "1.11"
+DocumenterVitepress = "0.3.9"
+PowerScaling = "0.1"
